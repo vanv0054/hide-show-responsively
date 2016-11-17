@@ -35,7 +35,18 @@ img:nth-child(4) {
 
 @media only screen and (min-width: 25em) {
 
+  img {
+    display: inline-block;
+    width: 49%;
+  }
 
+  img:nth-child(2) {
+    display: inline-block;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+  }
 
 }
 
