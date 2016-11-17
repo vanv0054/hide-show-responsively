@@ -31,7 +31,14 @@ html {
 
   img {
   display: inline-block;
-  width: 20%;
+  }
+
+  img:nth-child(2) {
+    display: none;
+  }
+
+  img:nth-child(4) {
+    display: none;
   }
 
 }
@@ -43,14 +50,21 @@ html {
     width: 40%;
   }
 
+  img:nth-child(2) {
+    display: inline-block;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   img {
     display: inline-block;
-    width: 40%;
-    vertical-align: middle;;
+    width: 20%;
   }
 
 }
