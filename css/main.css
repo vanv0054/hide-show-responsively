@@ -13,11 +13,20 @@ html {
 }
 
 body {
-  margin: 0;
+  text-align: center;
 }
 
 img {
   width: 100%;
+  display: inline-block;
+}
+
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(4) {
+  display: none;
 }
 
 *, *::before, *::after {
@@ -26,17 +35,7 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-  img {
-    display: inline-block;
-  }
 
-  img:nth-child(2) {
-    display: none;
-  }
-
-  img:nth-child(4) {
-    display: none;
-  }
 
 }
 
@@ -44,9 +43,7 @@ img {
 
   img {
     display: inline-block;
-    width: 30%;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 31%;
   }
 
   img:nth-child(2) {
@@ -68,8 +65,10 @@ img {
   img {
     display: inline-block;
     width: 24%;
-    padding-top: 10px;
-    padding-left: 13px;
+  }
+
+  img:nth-child(1) {
+    display: inline-block;
   }
 
 }
