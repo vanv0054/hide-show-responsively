@@ -11,6 +11,10 @@ html {
   text-size-adjust: 100%;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -23,7 +27,7 @@ html {
 
   img {
   display: inline-block;
-  width: 70%;
+  width: 50%
   }
 
 }
@@ -32,7 +36,7 @@ html {
 
   img {
     display: inline-block;
-    width: 100%;
+    width: 30%;
   }
 
 }
@@ -41,7 +45,8 @@ html {
 
   img {
     display: inline-block;
-    width: 50%;
+    width: 20%;
+    vertical-align: middle;;
   }
 
 }
