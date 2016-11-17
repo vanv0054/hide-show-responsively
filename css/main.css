@@ -9,6 +9,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,17 +20,13 @@ img {
   width: 100%;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 @media only screen and (min-width: 25em) {
 
-  img {
+img {
   display: inline-block;
   }
 
