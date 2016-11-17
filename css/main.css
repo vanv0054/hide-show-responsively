@@ -44,7 +44,9 @@ img {
 
   img {
     display: inline-block;
-    width: 40%;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
   img:nth-child(2) {
@@ -55,13 +57,19 @@ img {
     display: inline-block;
   }
 
+  img:nth-child(1) {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   img {
     display: inline-block;
-    width: 20%;
+    width: 24%;
+    padding-top: 10px;
+    padding-left: 13px;
   }
 
 }
